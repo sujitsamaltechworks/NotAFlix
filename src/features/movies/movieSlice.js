@@ -40,8 +40,8 @@ export const movieSlice = createSlice({
   name: "movies",
   initialState,
   reducers: {
-    addMovies: (state, { payload }) => {
-      state.movies = payload; // difference in toolkit, creates a copy automatically
+    removeSelectedMovieOrShow: (state) => {
+      state.selectedMovieOrShow = {};
     },
   },
   extraReducers: {
@@ -66,8 +66,9 @@ export const movieSlice = createSlice({
   },
 });
 
-export const { addMovies } = movieSlice.actions;
-export const getAllMovies = (state) => state.movies.movies;
+export const { removeSelectedMovieOrShow } = movieSlice.actions;
 export const getAllShows = (state) => state.movies.shows;
-export const getSelectedMovieOrShow = (state) => state.movies.selectedMovieOrShow;
+export const getAllMovies = (state) => state.movies.movies;
+export const getSelectedMovieOrShow = (state) =>
+  state.movies.selectedMovieOrShow;
 export default movieSlice.reducer;
