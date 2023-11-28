@@ -20,3 +20,26 @@
   width: 38px;
   height: 38px;
 }
+
+.searchbar {
+  position: relative;
+  .searchbar-input {
+    height: 30px;
+    width: 281px;
+    padding: 1rem;
+    border-radius: 4px;
+    border: none;
+    &:focus-visible {
+      outline: none;
+    }
+  }
+  .reset-search {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    .close-icon {
+      height: 16px;
+      cursor: pointer;
+    }
+  }
+}

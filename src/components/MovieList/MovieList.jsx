@@ -21,7 +21,7 @@ const MovieList = () => {
       ))
     ) : (
       <div className="movies-error">
-        <h3>{movies.Error}</h3>
+        <h3 style={{ color: "white" }}>{movies.Error}</h3>
       </div>
     );
 
@@ -30,7 +30,7 @@ const MovieList = () => {
       shows.Search.map((show, index) => <MovieCard key={index} data={show} />)
     ) : (
       <div className="movies-error">
-        <h3>{shows.Error}</h3>
+        <h3 style={{ color: "white" }}>{shows.Error}</h3>
       </div>
     );
   return (
