@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/notaflix/static/css/main.15a57a04.css",
+    "main.js": "/notaflix/static/js/main.55b3870e.js",
+    "static/media/pnf.jpg": "/notaflix/static/media/pnf.38a2ceebb514ace0d870.jpg",
+    "static/media/user.png": "/notaflix/static/media/user.109eb92014ac0b55efdf.png",
+    "index.html": "/notaflix/index.html",
+    "main.15a57a04.css.map": "/notaflix/static/css/main.15a57a04.css.map",
+    "main.55b3870e.js.map": "/notaflix/static/js/main.55b3870e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15a57a04.css",
+    "static/js/main.55b3870e.js"
+  ]
+}
